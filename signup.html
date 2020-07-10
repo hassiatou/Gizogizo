@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Gizo Gizo</title>
+</head>
+<body>
+        <!-- navbar -->
+
+        <header class=" deep-purple">
+            <div class="navbar-fixed">
+                <nav class="nav-wrapper deep-purple">
+                    <div class="container">
+                        <a href="#" class="brand-logo">Gizo Gizo</a>
+                        <a href="#" data-target="mobile-menu" class="sidenav-trigger">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a class="active" href="index.html">Home</a></li>
+                            <li><a href="solution.html">Solution</a></li>
+                            <li><a href="signUp.html">signUp</a></li>
+                            <li><a data-target="loginModal" href="#loginModal" class="btn pink darken-1 modal-trigger">Login</a></li>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            </a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="modal" id="loginModal">
+                <div class="modal-content">
+                    <h4>Account Login</h4>
+                    <p>Loggin to access your account dashboard</p>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate">
+                                <label for="icon_prefix">First Name</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">phone</i>
+                                <input id="icon_telephone" type="tel" class="validate">
+                                <label for="icon_telephone">Telephone</label>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class="modal-close waves-effect waves-green btn grey">
+                        <i class="fa fa-refresh" aria-hidden="true"></i>
+                        RESET PASSWORD
+                    </a>
+    
+                    <a href="#!" class="modal-close waves-effect waves-green btn deep-purple">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        Submit
+                    </a>
+                </div>
+            </div>
+            <div class="container white-text center heightBannierre" style="height: 350px;">
+                <h6 style="margin-top: 50px;">Welcome to Gizo Gizo</h6>
+                <h1>Create An Account</h1>
+            </div>
+            </header>
+
+            <section class="section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <div>
+                                <h4>Get a free account</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Nam consequatur explicabo, praesentium non tempora harum ea esse eveniet quo sint?</p>
+                            </div>
+        
+                            <div>
+                                <h4>Download the free software</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Nam consequatur explicabo, praesentium non tempora harum ea esse eveniet quo sint?</p>
+                            </div>
+        
+                            <div>
+                                <h4>Push to the plateform</h4>
+                                <p>Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Nam consequatur explicabo, praesentium non tempora harum ea esse eveniet quo sint?</p>
+                            </div>
+                        </div>
+        
+                        <div class="col s12 m6">
+                            <div class="card-panel grey-ligthen-3 lighten3">
+                                <h5 class="center white-text">Please fill out this form</h5>
+                                <div class="input-field">
+                                    <input type="text" placeholder="Name">
+                                </div>
+        
+                                <div class="input-field">
+                                    <input type="text" placeholder="Email">
+                                </div>
+        
+                                <div class="input-field">
+                                    <input type="text" placeholder="Phone">
+                                </div>
+        
+                                <div class="input-field">
+                                    <input type="text" placeholder="Categorie">
+                                </div>
+        
+                                <div>
+                                    <textarea placeholder="message"  name="textarea" class="materialize-textarea" ></textarea>
+                                </div>
+        
+                                <div class="input-field col s12">
+                                    <select>
+                                        <option value="" disabled selected>Choose your option</option>
+                                        <option value="1">Systeme embarqué</option>
+                                        <option value="2">Data Science</option>
+                                        <option value="3">Full Stack</option>
+                                        <option value="4">FrontEnd Developper</option>
+                                        <option value="5">BackEnd Developper</option>
+                                    </select>
+                                    <label>Rôle</label>
+                                </div>
+        
+                                <button class="btn deep-purple btnSubmitSignUp" style="width: 100%;">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <footer class="page-footer blue-grey darken-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 m6">
+                            <h3>About Us</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, architecto quaerat. Ducimus atque saepe, fugiat nostrum quibusdam ex vero mollitia!</p>
+                        </div>
+        
+                        <div class="col offset-m3 s12 m3">
+                            <h3>Links</h3>
+                            <ul>
+                                <li><a class="white-text" href="#">Home</a></li>
+                                <li><a class="white-text" href="#">Solution</a></li>
+                                <li><a class="white-text" href="#">Sign UP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright deep-purple" style="height: 20px;">
+                    <div class="container">
+                        <div class="row"  >
+                            <div class="col m6">
+                    <p   > GizoGizo © 2020</p>
+                    </div>
+                    <div class="col m6 center" >
+                    <p  >Terms & Conditions</p>
+                </div>
+        
+                </div>
+                    </div>
+                  </div>
+            </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <script>
+                $(document).ready(function(){
+                    $('.sidenav').sidenav();
+                    $('.tabs').tabs();
+                    $('#loginModal').modal();
+                    $('select').formSelect();
+        
+                });  
+            </script>
+        </body>
+        </html>
